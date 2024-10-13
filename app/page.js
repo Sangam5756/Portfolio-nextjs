@@ -22,7 +22,7 @@ const Home = () => {
       <h1>Welcome to My Next.js App</h1>
       <p>{data ? data.message : "Loading..."}</p>
       {data?.course?.map((course) => (
-        <p>{course?._id}{course?.title}{course?.price}</p>
+        <p key={course._id}>{course?._id}{course?.title}{course?.price}</p>
       ))}
     </div>
   );
