@@ -11,6 +11,7 @@ const courseSchema = new mongoose.Schema(
   { timestamps: true }
 );
 
+
 // Create the Course model
 const Course = mongoose.models.Course || mongoose.model('Course', courseSchema);
 
@@ -23,6 +24,13 @@ const connectDb = async () => {
    // Ensure you have this in your .env.local
   return mongoose.connect("mongodb+srv://sangammunde3:69ZEogw3grwMXHyk@cluster0.7e0zod4.mongodb.net/course-selling");
 };
+
+
+
+
+
+
+
 
 export async function GET() {
   try {
