@@ -16,8 +16,6 @@ export const EXPERIENCES = [
   },
 ];
 
-
-
 export const PROJECTS = [
   {
     title: "FuncTube",
@@ -32,6 +30,8 @@ export const PROJECTS = [
       "Node.js",
       "TailwindCss",
     ],
+    link: "https://vidvault5756.vercel.app",
+    githubrepo: "https://github.com/Sangam5756/vidVault",
   },
   {
     title: "MovieMind",
@@ -46,6 +46,8 @@ export const PROJECTS = [
       "Cohere-GPT",
       "Firebase",
     ],
+    link: "https://netflixgpt-174a5.web.app",
+    githubrepo: "https://github.com/Sangam5756/NamasteReactJs",
   },
   {
     title: "Pawdoption",
@@ -54,7 +56,10 @@ export const PROJECTS = [
     description:
       "Built a full-stack pet adoption website with MERN stack, allowing users to browse, adopt, and manage pets. Implemented user authentication and session management for enhanced security.",
     technologies: ["MongoDB", "Express.js", "React", "Node.js", "TailwindCss"],
+    link: "https://petadop5756.onrender.com/",
+    githubrepo: "https://github.com/Sangam5756/Pet-Adoption",
   },
+
   {
     title: "ShopVerse",
     image:
@@ -68,6 +73,8 @@ export const PROJECTS = [
       "TailwindCss",
       "React-Redux",
     ],
+    link: "https://fullstack-eccomerce.onrender.com/",
+    githubrepo: "https://github.com/Sangam5756/fullstack-eccomerce",
   },
   {
     title: "Wanderlust (AirbnbClone)",
@@ -84,7 +91,7 @@ export const PROJECTS = [
       "TailwindCss",
       "BootStrap",
     ],
-    githubrepo: "https://github.com/Sangam5756/Travel_Site.git",
+    githubrepo: "https://github.com/Sangam5756/PROJECTS.git",
   },
   {
     title: "GitCode",
@@ -111,7 +118,7 @@ export const PROJECTS = [
       "https://img.poki.com/cdn-cgi/image/quality=78,width=314,height=314,fit=cover,f=auto/d07c1db617a36898b5e8c71013d228d11003eb36d7150b7abfe988fe097c7d66.png",
     link: "https://tictactoe-game-react.onrender.com/",
     technologies: ["React.js", "TailwindCss", "JavaScript"],
-    githubrepo: "https://github.com/Sangam5756/TicTacToe_Game_React.git",
+    githubrepo: "https://github.com/Sangam5756/PROJECTS.git",
   },
   {
     title: "Joke Generator in React",
@@ -121,7 +128,7 @@ export const PROJECTS = [
       "https://viralcoder.in/wp-content/uploads/2024/01/jokeGenerate-1024x536.png",
     link: "https://joke-generator-react.onrender.com/",
     technologies: ["React-js", "TailwindCss", "JavaScript", "API"],
-    githubrepo: "https://github.com/Sangam5756/Joke-Generator-React.git",
+    githubrepo: "https://github.com/Sangam5756/PROJECTS.git",
   },
   {
     title: "Weather Detection",
@@ -136,7 +143,7 @@ export const PROJECTS = [
       "Material-UI",
       "OpenWeatherMap API",
     ],
-    githubrepo: "https://github.com/Sangam5756/weather-app.git",
+    githubrepo: "https://github.com/Sangam5756/PROJECTS.git",
   },
   {
     title: "Online Bookstore and Course Platform",
@@ -152,7 +159,7 @@ export const PROJECTS = [
       "Node.js",
       "TailwindCSS",
     ],
-    githubrepo: "https://github.com/Sangam5756/BookStore.git",
+    githubrepo: "https://github.com/Sangam5756/PROJECTS.git",
   },
   {
     title: "Bookshelf",
@@ -162,7 +169,7 @@ export const PROJECTS = [
       "https://t3.ftcdn.net/jpg/06/50/58/74/360_F_650587420_iqiG7NXrBaVmU2OtYcMtQhv7zjqdq84E.jpg",
     link: "https://bookshelf-k0iy.onrender.com/",
     technologies: ["React.js", "LocalStorage", "TailwindCss"],
-    githubrepo: "https://github.com/Sangam5756/BOOKSHELF.git",
+    githubrepo: "https://github.com/Sangam5756/PROJECTS.git",
   },
   {
     title: "Bidding Platform",
@@ -171,7 +178,7 @@ export const PROJECTS = [
     image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZSREn075BYjyiDlcbdy7HTKl83FbXQgA-6kC_4hvq3RuKHIYQNNtvVQ4k2uD_uZdhEY8&usqp=CAU",
     technologies: ["MongoDB", "Node-js", "Express.js", "Rest-Api"],
-    githubrepo: "https://github.com/Sangam5756/Bidding_Platform.git",
+    githubrepo: "https://github.com/Sangam5756/PROJECTS.git",
   },
 ];
 

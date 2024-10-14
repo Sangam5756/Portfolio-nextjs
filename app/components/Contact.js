@@ -7,6 +7,7 @@ const Contact = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
+   
 
     emailjs
       .sendForm("service_7ssdikq", "template_wjfexqr", form.current, {
@@ -55,7 +56,6 @@ const Contact = () => {
             {CONTACT.phoneNo}
           </motion.p>
           <motion.a
-
             whileInView={{ opacity: 1, x: 0 }}
             initial={{ opacity: 0, x: -100 }}
             transition={{ duration: 0.5 }}
@@ -67,13 +67,13 @@ const Contact = () => {
         </div>
 
         <motion.form
-         whileInView={{ opacity: 1, x: 0 }}
-         initial={{ opacity: 0, x: 100 }}
-         transition={{ duration: 0.5 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          initial={{ opacity: 0, x: 100 }}
+          transition={{ duration: 0.5 }}
           ref={form}
           onSubmit={sendEmail}
           className="w-full max-w-xl lg:w-3/4 grid-col-1 grid"
-        > 
+        >
           <label>Name</label>
           <input
             type="text"

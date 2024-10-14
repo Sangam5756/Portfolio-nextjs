@@ -28,6 +28,28 @@ const Project = () => {
                 height={150}
                 className="mb-6  rounded"
               />
+              <div className="flex  gap-2 lg:gap-4 mb-2">
+                <motion.a
+                  whileInView={{ opacity: 1, x: 0 }}
+                  initial={{ opacity: 0, x: -100 }}
+                  transition={{ duration: 1 }}
+                  className="px-2 text-purple-500 py-1 bg-neutral-900 rounded hover:text-white"
+                  href={project.link}
+                  target="_blank"
+                >
+                  live
+                </motion.a>
+                <motion.a
+                  whileInView={{ opacity: 1, x: 0 }}
+                  initial={{ opacity: 0, x: -100 }}
+                  transition={{ duration: 1 }}
+                  className="px-2 text-green-500 py-1 bg-neutral-900 rounded hover:text-white"
+                  href={project.githubrepo}
+                  target="_blank"
+                >
+                  github
+                </motion.a>
+              </div>
             </div>
 
             <motion.div
