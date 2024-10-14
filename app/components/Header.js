@@ -1,6 +1,6 @@
 import React from "react";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
-import { SiLeetcode } from "react-icons/si";
+import { SiLeetcode, SiGoogledocs, SiWakatime } from "react-icons/si";
 
 const Header = () => {
   return (
@@ -14,9 +14,42 @@ const Header = () => {
         />
       </div>
       <div className="m-8 flex items-center justify-center gap-5 text-2xl">
-        <FaLinkedin />
-        <FaGithub />
-        <SiLeetcode />
+        <a
+          href="https://drive.google.com/file/d/17E4hMwfMlqrFXHW9NluJAPELhbg9oHin/view?usp=sharing"
+          title="Resume"
+          target="_blank"
+          className="hover:text-purple-300"
+        >
+          <SiGoogledocs />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/sangammundhe"
+          title="linkedin"
+          target="_blank"
+           className="hover:text-purple-300"
+        >
+          <FaLinkedin />
+        </a>
+        <a href="https://github.com/sangam5756" title="github"  className="hover:text-purple-300" target="_blank">
+          <FaGithub />
+        </a>
+
+        <a
+          href="https://leetcode.com/u/sangammunde3"
+          title="leetcode"
+           className="hover:text-purple-300"
+          target="_blank"
+        >
+          <SiLeetcode />
+        </a>
+        <a
+          href="https://wakatime.com/@sangammundhe"
+          title="wakatime"
+          target="_blank"
+           className="hover:text-purple-300"
+        >
+          <SiWakatime />
+        </a>
       </div>
     </nav>
   );
