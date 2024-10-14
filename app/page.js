@@ -1,33 +1,30 @@
 "use client"; // Mark as Client Component
 
 import React, { useEffect, useState } from "react";
+import Header from "./components/Header";
+import Hero from "./components/Hero";
+import About from "./components/About";
+import Technologies from "./components/Technologies";
+import Experience from "./components/Experience";
+import Project from "./components/Project";
+import Contact from "./components/Contact";
 
 const Home = () => {
-  const [data, setData] = useState(null);
-
-  useEffect(() => {
-    const fetchData = async () => {
-      const response = await fetch("/api/hello");
-      const result = await response.json();
-      setData(result);
-    };
-
-    fetchData();
-  }, []);
-
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100 p-4">
-      <h1 className="text-3xl font-bold text-center text-gray-800 mb-4">FETCHING DATA FROM MONGODB</h1>
-      <p className="text-lg text-gray-600 mb-8">
-        {data ? data.message : "Loading..."}
-      </p>
-      <div className="grid grid-cols-1 gap-4 w-full max-w-lg">
-        {data?.course?.map((course) => (
-          <div key={course._id} className="bg-white p-4 rounded-lg shadow-md">
-            <h2 className="text-xl font-semibold text-gray-800">{course.title}</h2>
-            <p className="text-gray-600">Price: ${course.price}</p>
-          </div>
-        ))}
+    <div>
+      <div className="overflow-x-hidden text-neutral-300 antialiased selection:bg-cyan-300 selection:text-cyan-900">
+        <div className="fixed top-0  h-full w-full -z-10">
+          <div className="absolute top-0 z-[-2] h-screen w-screen bg-neutral-950 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]"></div>
+        </div>
+        <div className="container mx-auto px-5 lg:px-1">
+          <Header />
+          <Hero />
+          <About />
+          <Technologies/>
+          <Experience/>
+          <Project/>
+          <Contact/>
+        </div>
       </div>
     </div>
   );

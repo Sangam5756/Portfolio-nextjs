@@ -1,11 +1,12 @@
-// app/layout.js
+import "./globals.css";
+import React from "react";
 
-import './globals.css'; // Import global styles
-
-export default function Layout({ children }) {
+const layout = ({ children }) => {
   return (
     <html lang="en">
       <body>{children}</body>
     </html>
   );
-}
+};
+
+export default layout;
