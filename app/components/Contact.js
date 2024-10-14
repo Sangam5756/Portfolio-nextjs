@@ -73,7 +73,7 @@ const Contact = () => {
           ref={form}
           onSubmit={sendEmail}
           className="w-full max-w-xl lg:w-3/4 grid-col-1 grid"
-        >
+        > 
           <label>Name</label>
           <input
             type="text"
