@@ -73,7 +73,7 @@ export const PROJECTS = [
       "TailwindCss",
       "React-Redux",
     ],
-    link: "https://fullstack-eccomerce.onrender.com/",
+    link: "https://shopverse5756.onrender.com/",
     githubrepo: "https://github.com/Sangam5756/fullstack-eccomerce",
   },
   {

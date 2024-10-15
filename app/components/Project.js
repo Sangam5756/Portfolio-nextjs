@@ -1,13 +1,7 @@
-"use client";
 import React, { useState } from "react";
 import { PROJECTS } from "../utils/constant";
 import { motion } from "framer-motion";
 const Project = () => {
-  const [demo, setdemo] = useState(false);
-  const onMouseHover = () => {
-    setdemo(!demo);
-  };
-
   return (
     <div className="border-b border-neutral-900 pb-4 lg:mb-35">
       <motion.h1
