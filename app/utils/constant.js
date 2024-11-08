@@ -34,6 +34,23 @@ export const PROJECTS = [
     githubrepo: "https://github.com/Sangam5756/vidVault",
   },
   {
+    title: "Dev-Blog",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRWeZvHHli46VHOaGBwJH-9ChgbJ8uxGMHKA&s", // Replace with actual image
+    description:
+      "Developed a secure backend API for a blog platform with user authentication and full CRUD functionality for blog posts. Implemented JWT-based authentication to protect routes, ensuring only authorized users can manage posts. Utilized Prisma ORM for efficient database interactions and input validation to maintain data integrity. The API is scalable, secure, and optimized for real-world applications",
+    technologies: [
+      "React.js",
+      "Prisma",
+      "Typescript",
+      "Hono.js",
+      "TailwindCss",
+      "PostgreSql",
+    ],
+    link: "medium-blog-eight-lac.vercel.app",
+    githubrepo: "https://github.com/Sangam5756/Medium-Blog",
+  },
+  {
     title: "MovieMind",
     image:
       "https://www.missioncriticalmagazine.com/ext/resources/2023/10/CHatgpt.jpg?1697059739", // Replace with actual image
