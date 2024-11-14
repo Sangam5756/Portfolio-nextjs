@@ -26,12 +26,10 @@ export const PROJECTS = [
       "https://i.pinimg.com/736x/b5/1b/78/b51b78ecc9e5711274931774e433b5e6.jpg",
     link: "https://mern-github-app-bqcb.onrender.com/",
     technologies: [
-      "React",
       "MongoDB",
       "Express-js",
       "Node-js",
-      "TailwindCss",
-      "Passport.js",
+      "JWT",
     ],
     githubrepo:
       "https://github.com/Sangam5756/NamasteNodeJs/tree/master/backend",
@@ -42,7 +40,7 @@ export const PROJECTS = [
       "An interactive web application offering users a platform to browse and purchase books and courses. Built with React.js and MERN stack.",
     image:
       "https://github.com/Sangam5756/BookStore/blob/master/frontend/public/banner.png?raw=true",
-    link: "https://bookstore-9orf.onrender.com/",
+    link: "https://bookstore5756.vercel.app/",
     technologies: [
       "React.js",
       "MongoDB",
