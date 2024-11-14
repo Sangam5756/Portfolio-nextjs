@@ -18,20 +18,39 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "FuncTube",
-    image:
-      "https://i.pinimg.com/736x/2b/23/74/2b237448b0ecda112ebafc89b7e06c05.jpg", // Replace with actual image
+    title: "DevTinder",
     description:
-      "Developed VidVault using React and Redux, enhancing user engagement by 30% and reducing page load time by 25%. Implemented efficient search functionality and caching mechanism, achieving O(1) lookup times and optimizing performance by 40%.",
+      "DevTinder allows users to create accounts, manage profiles, and explore other profiles.Users can send, accept, reject, or ignore connection requests.View all received requests, connections, and matches in one place.Built with RESTful APIs for efficient authentication, profile, and connection management.Emphasizes secure, tested, and smooth user interactions from signup to connection..",
+
+    image:
+      "https://i.pinimg.com/736x/b5/1b/78/b51b78ecc9e5711274931774e433b5e6.jpg",
+    link: "https://mern-github-app-bqcb.onrender.com/",
+    technologies: [
+      "React",
+      "MongoDB",
+      "Express-js",
+      "Node-js",
+      "TailwindCss",
+      "Passport.js",
+    ],
+    githubrepo:
+      "https://github.com/Sangam5756/NamasteNodeJs/tree/master/backend",
+  },
+  {
+    title: "Online Bookstore and Course Platform",
+    description:
+      "An interactive web application offering users a platform to browse and purchase books and courses. Built with React.js and MERN stack.",
+    image:
+      "https://github.com/Sangam5756/BookStore/blob/master/frontend/public/banner.png?raw=true",
+    link: "https://bookstore-9orf.onrender.com/",
     technologies: [
       "React.js",
-      "React-Redux",
-      "JavaScript",
+      "MongoDB",
+      "Express-js",
       "Node.js",
-      "TailwindCss",
+      "TailwindCSS",
     ],
-    link: "https://vidvault5756.vercel.app",
-    githubrepo: "https://github.com/Sangam5756/vidVault",
+    githubrepo: "https://github.com/Sangam5756/PROJECTS.git",
   },
   {
     title: "Dev-Blog",
@@ -49,6 +68,22 @@ export const PROJECTS = [
     ],
     link: "https://medium-blog-eight-lac.vercel.app",
     githubrepo: "https://github.com/Sangam5756/Medium-Blog",
+  },
+  {
+    title: "ShopVerse",
+    image:
+      "https://img.atom.com/story_images/visual_images/1658305987-shopverse.png",
+    description:
+      "Developed a full-stack eCommerce application using the MERN stack. Integrated features like product browsing, shopping cart, and secure payment processing.",
+    technologies: [
+      "MongoDB",
+      "Node.js",
+      "React.Js",
+      "TailwindCss",
+      "React-Redux",
+    ],
+    link: "https://shopverse5756.onrender.com/",
+    githubrepo: "https://github.com/Sangam5756/fullstack-eccomerce",
   },
   {
     title: "MovieMind",
@@ -78,21 +113,39 @@ export const PROJECTS = [
   },
 
   {
-    title: "ShopVerse",
+    title: "FuncTube",
     image:
-      "https://img.atom.com/story_images/visual_images/1658305987-shopverse.png",
+      "https://i.pinimg.com/736x/2b/23/74/2b237448b0ecda112ebafc89b7e06c05.jpg", // Replace with actual image
     description:
-      "Developed a full-stack eCommerce application using the MERN stack. Integrated features like product browsing, shopping cart, and secure payment processing.",
+      "Developed VidVault using React and Redux, enhancing user engagement by 30% and reducing page load time by 25%. Implemented efficient search functionality and caching mechanism, achieving O(1) lookup times and optimizing performance by 40%.",
     technologies: [
-      "MongoDB",
-      "Node.js",
-      "React.Js",
-      "TailwindCss",
+      "React.js",
       "React-Redux",
+      "JavaScript",
+      "Node.js",
+      "TailwindCss",
     ],
-    link: "https://shopverse5756.onrender.com/",
-    githubrepo: "https://github.com/Sangam5756/fullstack-eccomerce",
+    link: "https://vidvault5756.vercel.app",
+    githubrepo: "https://github.com/Sangam5756/vidVault",
   },
+  {
+    title: "GitCode",
+    description:
+      "Build and deploy a Github-like app using React, MongoDB, Express.js, Passport.js.",
+    image:
+      "https://i.pinimg.com/736x/b5/1b/78/b51b78ecc9e5711274931774e433b5e6.jpg",
+    link: "https://mern-github-app-bqcb.onrender.com/",
+    technologies: [
+      "React",
+      "MongoDB",
+      "Express-js",
+      "Node-js",
+      "TailwindCss",
+      "Passport.js",
+    ],
+    githubrepo: "https://github.com/Sangam5756/Github.git",
+  },
+
   {
     title: "Wanderlust (AirbnbClone)",
     description:
@@ -137,16 +190,16 @@ export const PROJECTS = [
     technologies: ["React.js", "TailwindCss", "JavaScript"],
     githubrepo: "https://github.com/Sangam5756/PROJECTS.git",
   },
-  {
-    title: "Joke Generator in React",
-    description:
-      "Fetches and displays random programming jokes using an external API. Built with React.js and demonstrates the use of Fetch API and React hooks.",
-    image:
-      "https://viralcoder.in/wp-content/uploads/2024/01/jokeGenerate-1024x536.png",
-    link: "https://joke-generator-react.onrender.com/",
-    technologies: ["React-js", "TailwindCss", "JavaScript", "API"],
-    githubrepo: "https://github.com/Sangam5756/PROJECTS.git",
-  },
+  // {
+  //   title: "Joke Generator in React",
+  //   description:
+  //     "Fetches and displays random programming jokes using an external API. Built with React.js and demonstrates the use of Fetch API and React hooks.",
+  //   image:
+  //     "https://viralcoder.in/wp-content/uploads/2024/01/jokeGenerate-1024x536.png",
+  //   link: "https://joke-generator-react.onrender.com/",
+  //   technologies: ["React-js", "TailwindCss", "JavaScript", "API"],
+  //   githubrepo: "https://github.com/Sangam5756/PROJECTS.git",
+  // },
   {
     title: "Weather Detection",
     description:
@@ -162,32 +215,17 @@ export const PROJECTS = [
     ],
     githubrepo: "https://github.com/Sangam5756/PROJECTS.git",
   },
-  {
-    title: "Online Bookstore and Course Platform",
-    description:
-      "An interactive web application offering users a platform to browse and purchase books and courses. Built with React.js and MERN stack.",
-    image:
-      "https://github.com/Sangam5756/BookStore/blob/master/frontend/public/banner.png?raw=true",
-    link: "https://bookstore-9orf.onrender.com/",
-    technologies: [
-      "React.js",
-      "MongoDB",
-      "Express-js",
-      "Node.js",
-      "TailwindCSS",
-    ],
-    githubrepo: "https://github.com/Sangam5756/PROJECTS.git",
-  },
-  {
-    title: "Bookshelf",
-    description:
-      "A React application allowing users to search for books using the Open Library API and maintain a personal bookshelf using localStorage.",
-    image:
-      "https://t3.ftcdn.net/jpg/06/50/58/74/360_F_650587420_iqiG7NXrBaVmU2OtYcMtQhv7zjqdq84E.jpg",
-    link: "https://bookshelf-k0iy.onrender.com/",
-    technologies: ["React.js", "LocalStorage", "TailwindCss"],
-    githubrepo: "https://github.com/Sangam5756/PROJECTS.git",
-  },
+
+  // {
+  //   title: "Bookshelf",
+  //   description:
+  //     "A React application allowing users to search for books using the Open Library API and maintain a personal bookshelf using localStorage.",
+  //   image:
+  //     "https://t3.ftcdn.net/jpg/06/50/58/74/360_F_650587420_iqiG7NXrBaVmU2OtYcMtQhv7zjqdq84E.jpg",
+  //   link: "https://bookshelf-k0iy.onrender.com/",
+  //   technologies: ["React.js", "LocalStorage", "TailwindCss"],
+  //   githubrepo: "https://github.com/Sangam5756/PROJECTS.git",
+  // },
   {
     title: "Bidding Platform",
     description:
