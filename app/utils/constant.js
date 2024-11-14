@@ -11,7 +11,7 @@ export const EXPERIENCES = [
     year: "May 2024 - Jun 2024",
     role: "Full-Stack Developer Intern",
     company: "Capabl India",
-    description: `Developed a dynamic application using React, enhancing front-end UX and state management. Utilized React.js, HTML, CSS, JavaScript, and Tailwind CSS, contributing to front-end and MERN stack.`,
+    description: `Utilized MERN stack (MongoDB, Express.js, React.js, Node.js) to build full-stack Web Application.Integrated REST APIs to improve real-time data fetching and improve scalability.`,
     technologies: ["React.js", "Tailwind CSS", "Javascript"],
   },
 ];
@@ -242,3 +242,6 @@ export const CONTACT = {
   phoneNo: "+91 9370645756",
   email: "sangammunde3@gmail.com",
 };
+
+
+export const Resume = "https://drive.google.com/file/d/1WZvUKuoMMlacfIeW2c_vwiwgWnd5nFq5/view?usp=drive_link"

@@ -1,6 +1,7 @@
 import React from "react";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 import { SiLeetcode, SiGoogledocs, SiWakatime } from "react-icons/si";
+import { Resume } from "../utils/constant";
 
 const Header = () => {
   return (
@@ -15,7 +16,7 @@ const Header = () => {
       </div>
       <div className="m-8 flex items-center justify-center gap-5 text-2xl">
         <a
-          href="https://drive.google.com/file/d/17E4hMwfMlqrFXHW9NluJAPELhbg9oHin/view?usp=sharing"
+          href={Resume}
           title="Resume"
           target="_blank"
           className="hover:text-purple-300"
