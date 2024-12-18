@@ -1,7 +1,5 @@
 export const HERO_CONTENT = `
-Aspiring full-stack developer with 1+ years of experience in creating dynamic, scalable web apps. 
-Skilled in React, Tailwind CSS, Node.js, and Express.js, with a strong focus on MongoDB and PostgreSQL for efficient, secure data handling. 
-Passionate about delivering innovative, high-performance solutions that drive business growth and elevate user experiences.
+I’m an aspiring full-stack developer with a strong foundation in building web applications using modern technologies like React, Node.js, Express.js, and Tailwind CSS. I am passionate about learning and creating clean, efficient, and responsive user experiences. With experience in databases like MongoDB and PostgreSQL, I aim to contribute to building scalable, high-performance web solutions. Eager to grow and take on new challenges, I am committed to continuous learning and developing impactful, innovative applications.
 `;
 
 export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 1 year of professional experience, I have worked with a variety of technologies, including React,TailwindCss , Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
@@ -11,7 +9,7 @@ export const EXPERIENCES = [
     year: "May 2024 - Jun 2024",
     role: "Full-Stack Developer Intern",
     company: "Capabl India",
-    description: `Utilized MERN stack (MongoDB, Express.js, React.js, Node.js) to build full-stack Web Application.Integrated REST APIs to improve real-time data fetching and improve scalability.`,
+    description: `Work On Integrating RESTful APIs to optimize real-time data fetching and enhance application performance.`,
     technologies: ["React.js", "Tailwind CSS", "Javascript"],
   },
 ];
