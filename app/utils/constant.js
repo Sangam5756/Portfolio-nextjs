@@ -240,4 +240,4 @@ export const CONTACT = {
 };
 
 
-export const Resume = "https://drive.google.com/file/d/1WZvUKuoMMlacfIeW2c_vwiwgWnd5nFq5/view?usp=drive_link"
+export const Resume = "https://drive.google.com/file/d/1CKqZknjxcDp38vFGqwATbUckAgK3rWJX/view?usp=sharing"
