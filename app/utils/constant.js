@@ -31,7 +31,7 @@ export const PROJECTS = [
       "React-js",
       "Typescript",
       "TailwindCss",
-      "DaisyUi"
+      "DaisyUi",
       "Redux-ToolKit",
       
     ],
