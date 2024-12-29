@@ -16,6 +16,25 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
+  title: "Chatify",
+  description: 
+    "Chatify is a real-time messaging platform where users can join custom chat rooms and exchange messages instantly. Built with WebSocket technology, it allows seamless communication and supports multiple rooms. Users can send messages, receive real-time updates, and enjoy an intuitive chat interface.",
+  image: 
+    "https://play-lh.googleusercontent.com/8xSX7C0edYgitTGwdbqgoB9jt5lp4nO7VY_jkE3jWUCypcugn5aRHSn9Y8-qQA53GSo",
+  link: "https://chat-app12-nu.vercel.app/",
+  technologies: [
+    "Node.js",
+    "Express.js",
+    "Socket.io",
+    "React.js",
+    "Tailwind CSS",
+    "JavaScript"
+  ],
+  githubrepo: 
+    "https://github.com/Sangam5756/chatify", 
+}
+,
+  {
     title: "DevMeet",
     description:
       "DevMeet allows users to create accounts, manage profiles, and explore other profiles.Users can send, accept, reject, or ignore connection requests.View all received requests, connections, and matches in one place.Built with RESTful APIs for efficient authentication, profile, and connection management.Emphasizes secure, tested, and smooth user interactions from signup to connection..",
