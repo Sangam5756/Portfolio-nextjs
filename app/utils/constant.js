@@ -21,7 +21,7 @@ export const PROJECTS = [
     "Chatify is a real-time messaging platform where users can join custom chat rooms and exchange messages instantly. Built with WebSocket technology, it allows seamless communication and supports multiple rooms. Users can send messages, receive real-time updates, and enjoy an intuitive chat interface.",
   image: 
     "https://play-lh.googleusercontent.com/8xSX7C0edYgitTGwdbqgoB9jt5lp4nO7VY_jkE3jWUCypcugn5aRHSn9Y8-qQA53GSo",
-  link: "https://chat-app12-nu.vercel.app/",
+  link: "https://chatify5756.vercel.app/",
   technologies: [
     "Node.js",
     "Express.js",
