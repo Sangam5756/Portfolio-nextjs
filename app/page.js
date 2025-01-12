@@ -9,7 +9,19 @@ import Experience from "./components/Experience";
 import Project from "./components/Project";
 import Contact from "./components/Contact";
 
+
+
 const Home = () => {
+
+  useEffect(() => {
+    const currentHost = window.location.hostname;
+    console.log("currentHost",currentHost)
+    if (currentHost === "sangammundhe5756.onrender.com") {
+      window.location.href = "https://sangammundhe.site";
+    }
+  }, []);
+  
+
   return (
     <div>
       <div className="overflow-x-hidden text-neutral-300 antialiased selection:bg-cyan-300 selection:text-cyan-900">
