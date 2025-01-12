@@ -21,7 +21,7 @@ export const PROJECTS = [
     "Chatify is a real-time messaging platform where users can join custom chat rooms and exchange messages instantly. Built with WebSocket technology, it allows seamless communication and supports multiple rooms. Users can send messages, receive real-time updates, and enjoy an intuitive chat interface.",
   image: 
     "https://play-lh.googleusercontent.com/8xSX7C0edYgitTGwdbqgoB9jt5lp4nO7VY_jkE3jWUCypcugn5aRHSn9Y8-qQA53GSo",
-  link: "https://chatify5756.vercel.app/",
+  link: "https://chatify.sangammundhe.site",
   technologies: [
     "Node.js",
     "Express.js",
@@ -41,8 +41,8 @@ export const PROJECTS = [
 
     image:
       "https://i.pinimg.com/736x/b5/1b/78/b51b78ecc9e5711274931774e433b5e6.jpg",
-    link: "https://devmeet12.vercel.app/",
-    technologies: [
+      link: "https://devmeet.sangammundhe.site",
+      technologies: [
       "MongoDB",
       "Express-js",
       "Node-js",
@@ -63,7 +63,7 @@ export const PROJECTS = [
       "An interactive web application offering users a platform to browse and purchase books and courses. Built with React.js and MERN stack.",
     image:
       "https://github.com/Sangam5756/BookStore/blob/master/frontend/public/banner.png?raw=true",
-    link: "https://bookstore5756.vercel.app/",
+    link: "https://bookstore.sangammundhe.site",
     technologies: [
       "React.js",
       "MongoDB",
@@ -103,7 +103,7 @@ export const PROJECTS = [
       "TailwindCss",
       "React-Redux",
     ],
-    link: "https://shopverse5756.onrender.com/",
+    link: "https://shopverse.sangammundhe.site",
     githubrepo: "https://github.com/Sangam5756/fullstack-eccomerce",
   },
   {

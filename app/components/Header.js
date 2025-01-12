@@ -5,7 +5,7 @@ import { Resume } from "../utils/constant";
 
 const Header = () => {
   return (
-    <nav className="mb-20 flex items-center justify-between  py-2 px-2">
+    <nav data-theme="light" className="mb-20 flex items-center justify-between  py-2 px-2">
       <div className="flex flex-shrink-0 items-center ">
         <img
           src="/smlogotran2.png"
