@@ -87,7 +87,7 @@ export const PROJECTS = [
       "TailwindCss",
       "PostgreSql",
     ],
-    link: "https://medium-blog-eight-lac.vercel.app",
+    link: "https://devblog.sangammundhe.site",
     githubrepo: "https://github.com/Sangam5756/Medium-Blog",
   },
   {
