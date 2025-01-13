@@ -73,6 +73,23 @@ export const PROJECTS = [
     ],
     githubrepo: "https://github.com/Sangam5756/PROJECTS.git",
   },
+   {
+    title: "GitCode",
+    description:
+      "Build and deploy a Github-like app using React, MongoDB, Express.js, Passport.js.",
+    image:
+      "https://i.pinimg.com/736x/b5/1b/78/b51b78ecc9e5711274931774e433b5e6.jpg",
+    link: "https://gitcode.sangammundhe.site",
+    technologies: [
+      "React",
+      "MongoDB",
+      "Express-js",
+      "Node-js",
+      "TailwindCss",
+      "Passport.js",
+    ],
+    githubrepo: "https://github.com/Sangam5756/Github.git",
+  },
   {
     title: "Dev-Blog",
     image:
@@ -122,23 +139,7 @@ export const PROJECTS = [
     link: "https://netflixgpt-174a5.web.app",
     githubrepo: "https://github.com/Sangam5756/NamasteReactJs",
   },
-   {
-    title: "GitCode",
-    description:
-      "Build and deploy a Github-like app using React, MongoDB, Express.js, Passport.js.",
-    image:
-      "https://i.pinimg.com/736x/b5/1b/78/b51b78ecc9e5711274931774e433b5e6.jpg",
-    link: "https://gitcode.sangammundhe.site",
-    technologies: [
-      "React",
-      "MongoDB",
-      "Express-js",
-      "Node-js",
-      "TailwindCss",
-      "Passport.js",
-    ],
-    githubrepo: "https://github.com/Sangam5756/Github.git",
-  },
+  
   {
     title: "Pawdoption",
     image:
