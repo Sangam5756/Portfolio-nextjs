@@ -16,6 +16,21 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
+  "title": "AI-GPT",
+  "description": 
+    "AI-Code is a platform that leverages  AI to generate code based on natural language input. The system allows users to input programming requirements, and the AI generates the corresponding code in various programming languages. It simplifies coding tasks and helps developers by providing code suggestions, automating repetitive tasks, and enhancing productivity.",
+  "image": "https://static.vecteezy.com/system/resources/previews/004/885/882/non_2x/ai-artificial-intelligence-logo-in-hands-artificial-intelligence-and-machine-learning-concept-sphere-grid-wave-with-binary-code-big-data-innovation-technology-neural-networks-illustration-vector.jpg",
+  "link": "https://aicode.sangammundhe.site",
+  "technologies": [
+    "python",
+    "Flask",
+    "OPEN AI",
+    "React.js"
+  ],
+  "githubrepo": "https://github.com/Sangam5756/AI-CODER"
+}
+,
+  {
   title: "Chatify",
   description: 
     "Chatify is a real-time messaging platform where users can join custom chat rooms and exchange messages instantly. Built with WebSocket technology, it allows seamless communication and supports multiple rooms. Users can send messages, receive real-time updates, and enjoy an intuitive chat interface.",
