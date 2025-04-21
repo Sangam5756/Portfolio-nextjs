@@ -1,12 +1,11 @@
 import React from "react";
 import { ABOUT_TEXT } from "../utils/constant";
 import { motion } from "framer-motion";
-import { container } from "./Hero";
 
 const About = () => {
   return (
     <div className="border-b border-neutral-900 pb-4 lg:mb-35">
-      <h1 className="my-20 text-center text-4xl">
+      <h1 className="my-10 text-center text-4xl">
         About
         <span className="text-neutral-500"> Me</span>
       </h1>
@@ -15,9 +14,9 @@ const About = () => {
         <div className="w-full lg:w-1/2 lg:p-8">
           <div className="flex items-center justify-center">
             <motion.img
-              whileInView={{opacity:1, x:0}}
-              initial={{opacity:0, x:-100}}
-              transition={{duration:0.5}}
+              whileInView={{ opacity: 1, x: 0 }}
+              initial={{ opacity: 0, x: -100 }}
+              transition={{ duration: 0.5 }}
               src="./program.jpg"
             />
           </div>

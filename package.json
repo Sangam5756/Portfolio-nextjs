@@ -13,9 +13,10 @@
     "@emailjs/browser": "^4.4.1",
     "framer-motion": "^11.11.8",
     "mongoose": "^8.7.1",
-    "next": "14.2.15",
+    "next": "^14.2.28",
     "react": "^18",
     "react-dom": "^18",
+    "react-github-calendar": "^4.5.6",
     "react-icons": "^5.3.0"
   },
   "devDependencies": {
