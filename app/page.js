@@ -8,6 +8,7 @@ import Technologies from "./components/Technologies";
 import Experience from "./components/Experience";
 import Project from "./components/Project";
 import Contact from "./components/Contact";
+import GithubProjects from "./components/GithubRepos";
 
 const Home = () => {
 
@@ -17,6 +18,7 @@ const Home = () => {
   const contactRef = useRef(null);
   const aboutRef = useRef(null);
   const homeRef = useRef(null);
+  const recentActivityRef = useRef(null);
 
   useEffect(() => {
     const currentHost = window.location.hostname;
@@ -44,17 +46,20 @@ const Home = () => {
                 contactRef,
                 homeRef,
                 aboutRef
+                , recentActivityRef
               }}
             />
           </div>
           <div ref={homeRef}>
             <Hero />
           </div>
+          <div ref={recentActivityRef}>
+            <GithubProjects />
+          </div>
           <div ref={aboutRef}>
             <About />
           </div>
           <div ref={techRef}>
-
             <Technologies />
           </div>
           <div ref={experienceRef}>
@@ -64,6 +69,8 @@ const Home = () => {
           <div ref={projectsRef}>
             <Project />
           </div>
+
+
 
           <div ref={contactRef}>
             <Contact />

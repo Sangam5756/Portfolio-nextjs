@@ -2,7 +2,14 @@ export const HERO_CONTENT = `
 I’m an aspiring full-stack developer with a strong foundation in building web applications using modern technologies like React, Node.js, Express.js, and Tailwind CSS. I am passionate about learning and creating clean, efficient, and responsive user experiences. With experience in databases like MongoDB and PostgreSQL, I aim to contribute to building scalable, high-performance web solutions. Eager to grow and take on new challenges, I am committed to continuous learning and developing impactful, innovative applications.
 `;
 
-export const ABOUT_TEXT = `I’m a passionate and versatile aspiring full-stack developer with a strong interest in creating efficient, user-friendly web applications. I have hands-on experience working with technologies like React, Tailwind CSS, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began out of curiosity for how things work and has grown into a dedication to learning and building impactful solutions. I thrive in collaborative environments, enjoy solving complex challenges, and am always eager to adapt to new technologies. Outside of coding, I stay active, explore new tools and frameworks, and contribute to open-source projects whenever I can.`;
+// export const ABOUT_TEXT = `I’m a passionate and versatile aspiring full-stack developer with a strong interest in creating efficient, user-friendly web applications. I have hands-on experience working with technologies like React, Tailwind CSS, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began out of curiosity for how things work and has grown into a dedication to learning and building impactful solutions. I thrive in collaborative environments, enjoy solving complex challenges, and am always eager to adapt to new technologies. Outside of coding, I stay active, explore new tools and frameworks, and contribute to open-source projects whenever I can.`;
+export const ABOUT_TEXT = `I’m a motivated Software Developer with a strong foundation in full-stack web development and a deep interest in building reliable, scalable solutions. I’ve worked on real-world projects that involved everything from designing clean user interfaces to integrating APIs and deploying to the cloud.
+
+I enjoy writing maintainable code, collaborating with teams, and continuously improving both the product and myself. While I’ve worked with modern tools like React, Node.js, and AWS, I believe my ability to learn quickly, solve problems, and stay curious is what adds the most value.`
+
+export const hero_Text = `I’m a Software Developer with a solid foundation in full-stack development and a focus on building scalable, user-centered solutions.
+I’ve contributed to real-world projects from UI design to API integration and cloud deployment.
+I value clean code, collaboration, and continuous learning more than any single tool or technology.`
 
 export const EXPERIENCES = [
   {
@@ -16,39 +23,39 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-  "title": "AI-GPT",
-  "description": 
-    "AI-Code is a platform that leverages  AI to generate code based on natural language input. The system allows users to input programming requirements, and the AI generates the corresponding code in various programming languages. It simplifies coding tasks and helps developers by providing code suggestions, automating repetitive tasks, and enhancing productivity.",
-  "image": "https://static.vecteezy.com/system/resources/previews/004/885/882/non_2x/ai-artificial-intelligence-logo-in-hands-artificial-intelligence-and-machine-learning-concept-sphere-grid-wave-with-binary-code-big-data-innovation-technology-neural-networks-illustration-vector.jpg",
-  "link": "https://aicode.sangammundhe.site",
-  "technologies": [
-    "python",
-    "Flask",
-    "OPEN AI",
-    "React.js"
-  ],
-  "githubrepo": "https://github.com/Sangam5756/AI-CODER"
-}
-,
+    "title": "AI-GPT",
+    "description":
+      "AI-Code is a platform that leverages  AI to generate code based on natural language input. The system allows users to input programming requirements, and the AI generates the corresponding code in various programming languages. It simplifies coding tasks and helps developers by providing code suggestions, automating repetitive tasks, and enhancing productivity.",
+    "image": "https://static.vecteezy.com/system/resources/previews/004/885/882/non_2x/ai-artificial-intelligence-logo-in-hands-artificial-intelligence-and-machine-learning-concept-sphere-grid-wave-with-binary-code-big-data-innovation-technology-neural-networks-illustration-vector.jpg",
+    "link": "https://aicode.sangammundhe.site",
+    "technologies": [
+      "python",
+      "Flask",
+      "OPEN AI",
+      "React.js"
+    ],
+    "githubrepo": "https://github.com/Sangam5756/AI-CODER"
+  }
+  ,
   {
-  title: "Chatify",
-  description: 
-    "Chatify is a real-time messaging platform where users can join custom chat rooms and exchange messages instantly. Built with WebSocket technology, it allows seamless communication and supports multiple rooms. Users can send messages, receive real-time updates, and enjoy an intuitive chat interface.",
-  image: 
-    "https://play-lh.googleusercontent.com/8xSX7C0edYgitTGwdbqgoB9jt5lp4nO7VY_jkE3jWUCypcugn5aRHSn9Y8-qQA53GSo",
-  link: "https://chatify.sangammundhe.site",
-  technologies: [
-    "Node.js",
-    "Express.js",
-    "Socket.io",
-    "React.js",
-    "Tailwind CSS",
-    "JavaScript"
-  ],
-  githubrepo: 
-    "https://github.com/Sangam5756/chatify", 
-}
-,
+    title: "Chatify",
+    description:
+      "Chatify is a real-time messaging platform where users can join custom chat rooms and exchange messages instantly. Built with WebSocket technology, it allows seamless communication and supports multiple rooms. Users can send messages, receive real-time updates, and enjoy an intuitive chat interface.",
+    image:
+      "https://play-lh.googleusercontent.com/8xSX7C0edYgitTGwdbqgoB9jt5lp4nO7VY_jkE3jWUCypcugn5aRHSn9Y8-qQA53GSo",
+    link: "https://chatify.sangammundhe.site",
+    technologies: [
+      "Node.js",
+      "Express.js",
+      "Socket.io",
+      "React.js",
+      "Tailwind CSS",
+      "JavaScript"
+    ],
+    githubrepo:
+      "https://github.com/Sangam5756/chatify",
+  }
+  ,
   {
     title: "DevMeet",
     description:
@@ -56,8 +63,8 @@ export const PROJECTS = [
 
     image:
       "https://i.pinimg.com/736x/b5/1b/78/b51b78ecc9e5711274931774e433b5e6.jpg",
-      link: "https://devmeet.sangammundhe.site",
-      technologies: [
+    link: "https://devmeet.sangammundhe.site",
+    technologies: [
       "MongoDB",
       "Express-js",
       "Node-js",
@@ -67,7 +74,7 @@ export const PROJECTS = [
       "TailwindCss",
       "DaisyUi",
       "Redux-ToolKit",
-      
+
     ],
     githubrepo:
       "https://github.com/Sangam5756/dev-meet",
@@ -88,7 +95,7 @@ export const PROJECTS = [
     ],
     githubrepo: "https://github.com/Sangam5756/PROJECTS.git",
   },
-   {
+  {
     title: "GitCode",
     description:
       "Build and deploy a Github-like app using React, MongoDB, Express.js, Passport.js.",
@@ -154,7 +161,7 @@ export const PROJECTS = [
     link: "https://netflixgpt-174a5.web.app",
     githubrepo: "https://github.com/Sangam5756/NamasteReactJs",
   },
-  
+
   {
     title: "Pawdoption",
     image:
@@ -182,7 +189,7 @@ export const PROJECTS = [
   //   link: "https://vidvault5756.vercel.app",
   //   githubrepo: "https://github.com/Sangam5756/vidVault",
   // },
- 
+
 
   {
     title: "Wanderlust (AirbnbClone)",
@@ -201,7 +208,7 @@ export const PROJECTS = [
     ],
     githubrepo: "https://github.com/Sangam5756/PROJECTS.git",
   },
- 
+
   {
     title: "TicTacToe Game",
     description:

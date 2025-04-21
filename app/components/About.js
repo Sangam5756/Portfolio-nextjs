@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 const About = () => {
   return (
-    <div className="border-b border-neutral-900 pb-4 lg:mb-35">
+    <div className="border-b border-neutral-900 pb-4 hidden sm:block md:block">
       <h1 className="my-10 text-center text-4xl">
         About
         <span className="text-neutral-500"> Me</span>
@@ -17,7 +17,7 @@ const About = () => {
               whileInView={{ opacity: 1, x: 0 }}
               initial={{ opacity: 0, x: -100 }}
               transition={{ duration: 0.5 }}
-              src="./program.jpg"
+              src="./sdlc.jpg"
             />
           </div>
         </div>

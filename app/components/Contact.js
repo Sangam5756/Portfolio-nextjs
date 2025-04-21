@@ -2,12 +2,18 @@ import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import { motion } from "framer-motion";
 import { CONTACT } from "../utils/constant";
+import { MdEmail } from "react-icons/md";
+import { FiPhoneCall } from "react-icons/fi";
+
+
 const Contact = () => {
   const form = useRef();
 
+
+
   const sendEmail = (e) => {
     e.preventDefault();
-   
+
 
     emailjs
       .sendForm("service_7ssdikq", "template_wjfexqr", form.current, {
@@ -25,45 +31,62 @@ const Contact = () => {
   };
 
   return (
-    <div className="border-b  border-neutral-900 pb-20">
+    <div className="border-b  border-neutral-900 pb-15">
       <motion.h1
         whileInView={{ opacity: 1, y: 0 }}
         initial={{ opacity: 0, y: -100 }}
         transition={{ duration: 0.5 }}
-        className="my-10 text-center text-3xl"
+        className="my-5 text-center text-3xl"
       >
         {" "}
         Get In Touch
       </motion.h1>
       <div className="flex flex-wrap lg:justify-center mb-8">
-        <div className="text-center tracking-tighter w-full max-w-xl lg:w-1/2">
+        <div className="text-center tracking-tighter w-full max-w-xl lg:w-1/2 space-y-4">
           <motion.p
             whileInView={{ opacity: 1, x: 0 }}
             initial={{ opacity: 0, x: -100 }}
             transition={{ duration: 0.5 }}
-            className="my-4 "
+            className="my-2"
           >
-            {" "}
             {CONTACT.address}
           </motion.p>
-          <motion.p
+
+          {/* Phone with icon */}
+          <motion.div
             whileInView={{ opacity: 1, x: 0 }}
             initial={{ opacity: 0, x: 100 }}
             transition={{ duration: 0.5 }}
-            className="my-4 "
+            className="flex justify-center items-center gap-2 my-2"
           >
-            {" "}
-            {CONTACT.phoneNo}
-          </motion.p>
-          <motion.a
+            <p>{CONTACT.phoneNo}</p>
+            <a
+              href={`tel:${CONTACT.phoneNo}`}
+              title="Call"
+              className="text-purple-400 hover:text-purple-600"
+            >
+              <FiPhoneCall size={20} />
+            </a>
+          </motion.div>
+
+          {/* Email with icon */}
+          <motion.div
             whileInView={{ opacity: 1, x: 0 }}
             initial={{ opacity: 0, x: -100 }}
             transition={{ duration: 0.5 }}
-            href="#"
-            className="my-4 underline "
+            className="flex justify-center items-center gap-2 my-2"
           >
-            {CONTACT.email}
-          </motion.a>
+            <a href={`mailto:${CONTACT.email}`} className="underline">
+              {CONTACT.email}
+            </a>
+            <a
+              href={`mailto:${CONTACT.email}`}
+              title="Send Email"
+              className="text-purple-400 hover:text-purple-600"
+            >
+              <MdEmail size={22} />
+            </a>
+          </motion.div>
         </div>
 
         <motion.form
@@ -98,7 +121,7 @@ const Contact = () => {
           <button
             type="submit"
             required
-            className="bg-purple-700 hover:bg-purple-900"
+            className="bg-purple-700 hover:bg-purple-900 rounded-md mt-2"
           >
             Send
           </button>
