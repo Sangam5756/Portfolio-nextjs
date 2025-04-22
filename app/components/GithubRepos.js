@@ -1,8 +1,6 @@
 "use client";
 import React, { useEffect, useState } from "react";
 import { formatDistanceToNow } from "date-fns"; // Import the relative time function
-import ReactMarkdown from "react-markdown"; // 📦 Markdown renderer
-import remarkGfm from "remark-gfm";
 import ReadmeViewer from "./ReadmeViewer";
 
 const GithubProjects = () => {
@@ -181,10 +179,8 @@ const GithubProjects = () => {
                             </button>
                         </div>
                         <ReadmeViewer content={readmeContent} />
-                        {/* 
-                        <ReactMarkdown remarkPlugins={[remarkGfm]}>
-                            {readmeContent}
-                        </ReactMarkdown> */}
+
+
 
                     </div>
                 </div>

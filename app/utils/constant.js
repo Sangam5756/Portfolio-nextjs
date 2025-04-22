@@ -21,7 +21,24 @@ export const EXPERIENCES = [
   },
 ];
 
+export const githubUserName  ="Sangam5756"
+
 export const PROJECTS = [
+  {
+    "title": "ImageCompress",
+    "description":
+      "AI-Code is a platform that leverages  AI to generate code based on natural language input. The system allows users to input programming requirements, and the AI generates the corresponding code in various programming languages. It simplifies coding tasks and helps developers by providing code suggestions, automating repetitive tasks, and enhancing productivity.",
+    "image": "https://static.vecteezy.com/system/resources/previews/004/885/882/non_2x/ai-artificial-intelligence-logo-in-hands-artificial-intelligence-and-machine-learning-concept-sphere-grid-wave-with-binary-code-big-data-innovation-technology-neural-networks-illustration-vector.jpg",
+    "link": "https://aicode.sangammundhe.site",
+    "technologies": [
+      "python",
+      "Flask",
+      "OPEN AI",
+      "React.js"
+    ],
+    "githubrepo": "https://github.com/Sangam5756/AI-CODER"
+  }
+  ,
   {
     "title": "AI-GPT",
     "description":
@@ -273,4 +290,7 @@ export const CONTACT = {
 };
 
 
-export const Resume = "https://drive.google.com/file/d/1CKqZknjxcDp38vFGqwATbUckAgK3rWJX/view?usp=sharing"
+export const Resume = "https://d8it4huxumps7.cloudfront.net/uploads/profileData/files/30592038/sangammunde3_67c8855b2eb2b.pdf"
+
+
+export const GitAPi = process.env.NEXT_PUBLIC_GIT_TOKEN
