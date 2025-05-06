@@ -5,11 +5,11 @@ I’m an aspiring full-stack developer with a strong foundation in building web 
 // export const ABOUT_TEXT = `I’m a passionate and versatile aspiring full-stack developer with a strong interest in creating efficient, user-friendly web applications. I have hands-on experience working with technologies like React, Tailwind CSS, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began out of curiosity for how things work and has grown into a dedication to learning and building impactful solutions. I thrive in collaborative environments, enjoy solving complex challenges, and am always eager to adapt to new technologies. Outside of coding, I stay active, explore new tools and frameworks, and contribute to open-source projects whenever I can.`;
 export const ABOUT_TEXT = `I’m a motivated Software Developer with a strong foundation in full-stack web development and a deep interest in building reliable, scalable solutions. I’ve worked on real-world projects that involved everything from designing clean user interfaces to integrating APIs and deploying to the cloud.
 
-I enjoy writing maintainable code, collaborating with teams, and continuously improving both the product and myself. While I’ve worked with modern tools like React, Node.js, and AWS, I believe my ability to learn quickly, solve problems, and stay curious is what adds the most value.`
+I enjoy writing maintainable code, collaborating with teams, and continuously improving both the product and myself. While I’ve worked with modern tools like React, Node.js, and AWS, I believe my ability to learn quickly, solve problems, and stay curious is what adds the most value.`;
 
 export const hero_Text = `I’m a Software Developer with a solid foundation in full-stack development and a focus on building scalable, user-centered solutions.
 I’ve contributed to real-world projects from UI design to API integration and cloud deployment.
-I value clean code, collaboration, and continuous learning more than any single tool or technology.`
+I value clean code, collaboration, and continuous learning more than any single tool or technology.`;
 
 export const EXPERIENCES = [
   {
@@ -21,39 +21,29 @@ export const EXPERIENCES = [
   },
 ];
 
-export const githubUserName  ="Sangam5756"
+export const githubUserName = "Sangam5756";
 
 export const PROJECTS = [
   {
-    "title": "ImageCompress",
-    "description":
-      "AI-Code is a platform that leverages  AI to generate code based on natural language input. The system allows users to input programming requirements, and the AI generates the corresponding code in various programming languages. It simplifies coding tasks and helps developers by providing code suggestions, automating repetitive tasks, and enhancing productivity.",
-    "image": "https://static.vecteezy.com/system/resources/previews/004/885/882/non_2x/ai-artificial-intelligence-logo-in-hands-artificial-intelligence-and-machine-learning-concept-sphere-grid-wave-with-binary-code-big-data-innovation-technology-neural-networks-illustration-vector.jpg",
-    "link": "https://aicode.sangammundhe.site",
-    "technologies": [
-      "python",
-      "Flask",
-      "OPEN AI",
-      "React.js"
-    ],
-    "githubrepo": "https://github.com/Sangam5756/AI-CODER"
-  }
-  ,
+    title: "ImageCompress",
+    description:
+      "A simple web tool to compress and resize images. Upload, adjust, and download optimized images in seconds. Control compression percentage for better results. Reduces file size with no quality compromise. Fast, lightweight, and easy to use.",
+    image:
+      "https://raw.githubusercontent.com/Sangam5756/imageCompressor/main/preview.png",
+    link: "https://compressit.sangammundhe.site",
+    technologies: ["NextJs", "Javascript", "Tailwind CSS"],
+    githubrepo: "https://github.com/Sangam5756/imagecompressor",
+  },
   {
-    "title": "AI-GPT",
-    "description":
+    title: "AI-GPT",
+    description:
       "AI-Code is a platform that leverages  AI to generate code based on natural language input. The system allows users to input programming requirements, and the AI generates the corresponding code in various programming languages. It simplifies coding tasks and helps developers by providing code suggestions, automating repetitive tasks, and enhancing productivity.",
-    "image": "https://static.vecteezy.com/system/resources/previews/004/885/882/non_2x/ai-artificial-intelligence-logo-in-hands-artificial-intelligence-and-machine-learning-concept-sphere-grid-wave-with-binary-code-big-data-innovation-technology-neural-networks-illustration-vector.jpg",
-    "link": "https://aicode.sangammundhe.site",
-    "technologies": [
-      "python",
-      "Flask",
-      "OPEN AI",
-      "React.js"
-    ],
-    "githubrepo": "https://github.com/Sangam5756/AI-CODER"
-  }
-  ,
+    image:
+      "https://static.vecteezy.com/system/resources/previews/004/885/882/non_2x/ai-artificial-intelligence-logo-in-hands-artificial-intelligence-and-machine-learning-concept-sphere-grid-wave-with-binary-code-big-data-innovation-technology-neural-networks-illustration-vector.jpg",
+    link: "https://aicode.sangammundhe.site",
+    technologies: ["python", "Flask", "OPEN AI", "React.js"],
+    githubrepo: "https://github.com/Sangam5756/AI-CODER",
+  },
   {
     title: "Chatify",
     description:
@@ -67,19 +57,17 @@ export const PROJECTS = [
       "Socket.io",
       "React.js",
       "Tailwind CSS",
-      "JavaScript"
+      "JavaScript",
     ],
-    githubrepo:
-      "https://github.com/Sangam5756/chatify",
-  }
-  ,
+    githubrepo: "https://github.com/Sangam5756/chatify",
+  },
   {
     title: "DevMeet",
     description:
       "DevMeet allows users to create accounts, manage profiles, and explore other profiles.Users can send, accept, reject, or ignore connection requests.View all received requests, connections, and matches in one place.Built with RESTful APIs for efficient authentication, profile, and connection management.Emphasizes secure, tested, and smooth user interactions from signup to connection..",
 
     image:
-      "https://i.pinimg.com/736x/b5/1b/78/b51b78ecc9e5711274931774e433b5e6.jpg",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8y5Q-o9m3sbt0tjPhMr6cxjKsecMaBBR4LA&s",
     link: "https://devmeet.sangammundhe.site",
     technologies: [
       "MongoDB",
@@ -91,10 +79,8 @@ export const PROJECTS = [
       "TailwindCss",
       "DaisyUi",
       "Redux-ToolKit",
-
     ],
-    githubrepo:
-      "https://github.com/Sangam5756/dev-meet",
+    githubrepo: "https://github.com/Sangam5756/dev-meet",
   },
   {
     title: "Online Bookstore and Course Platform",
@@ -165,7 +151,7 @@ export const PROJECTS = [
   {
     title: "MovieMind",
     image:
-      "https://www.missioncriticalmagazine.com/ext/resources/2023/10/CHatgpt.jpg?1697059739", // Replace with actual image
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnet9BQkqlD0lq-VAZ0yPUmp16Ze5yCUySqQ&s", // Replace with actual image
     description:
       "Created a responsive web app for AI-powered movie recommendations using React and Cohere GPT API. Integrated TMDB API for fetching detailed movie information and deployed the app on Firebase for scalable access.",
     technologies: [
@@ -206,7 +192,6 @@ export const PROJECTS = [
   //   link: "https://vidvault5756.vercel.app",
   //   githubrepo: "https://github.com/Sangam5756/vidVault",
   // },
-
 
   {
     title: "Wanderlust (AirbnbClone)",
@@ -289,8 +274,7 @@ export const CONTACT = {
   email: "sangammunde3@gmail.com",
 };
 
+export const Resume =
+  "https://d8it4huxumps7.cloudfront.net/uploads/profileData/files/30592038/sangammunde3_67c8855b2eb2b.pdf";
 
-export const Resume = "https://d8it4huxumps7.cloudfront.net/uploads/profileData/files/30592038/sangammunde3_67c8855b2eb2b.pdf"
-
-
-export const GitAPi = process.env.NEXT_PUBLIC_GIT_TOKEN
+export const GitAPi = process.env.NEXT_PUBLIC_GIT_TOKEN;
