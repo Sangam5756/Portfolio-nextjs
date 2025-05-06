@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from "react";
 import { formatDistanceToNow } from "date-fns";
 import ReadmeViewer from "./ReadmeViewer";
-const token = "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";
+const token = process.env.NEXT_PUBLIC_GITHUB_TOKEN;
 const GithubProjects = () => {
   const [repos, setRepos] = useState([]);
   const [loading, setLoading] = useState(true);

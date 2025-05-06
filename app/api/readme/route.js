@@ -1,9 +1,9 @@
-import fetch from "node-fetch"; 
+import fetch from "node-fetch";
 export async function GET(request) {
   const { searchParams } = new URL(request.url);
   const repoName = searchParams.get("repoName");
-  
-  const token = "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";
+
+  const token = process.env.NEXT_PUBLIC_GITHUB_TOKEN;
   const username = "Sangam5756";
 
   try {
