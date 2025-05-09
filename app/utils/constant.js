@@ -13,10 +13,40 @@ I value clean code, collaboration, and continuous learning more than any single 
 
 export const EXPERIENCES = [
   {
+    year: "Dec 2024 - Present",
+    role: "Software Engineer Intern",
+    company: "GSM Trading Institute",
+    companyUrl: "https://gsmtradinginstitute.com",
+    logo: "https://gsmtradinginstitute.com/static/media/logo192.698cf8de825a457e5018.png",
+    description: [
+      "Built and scaled a full Course Management System (CMS) used by 500+ users.",
+      "Developed secure video streaming with Cloudflare, reducing buffering by 40%.",
+      "Implemented Razorpay payments with auto-access on purchase.",
+      "Added affiliate and partner tracking with real-time CRM dashboards.",
+      "Published the official Android app via Trusted Web Activity (TWA).",
+      "Integrated RESTful APIs for live market data, improving response time by 40%.",
+      "Collaborated on scalable Node.js services and deployed infrastructure on AWS with monitoring and security.",
+    ],
+    appLink: "https://play.google.com/store/apps/details?id=com.gsmtradinginstitute.twa",
+    technologies: [
+      "React.js",
+      "Node.js",
+      "JavaScript",
+      "MongoDB",
+      "AWS",
+      "Cloudflare",
+      "Razorpay",
+      "S3",
+      "PWA",
+    ],
+  },
+  {
     year: "May 2024 - Jun 2024",
     role: "Full-Stack Developer Intern",
     company: "Capabl India",
-    description: `Work On Integrating RESTful APIs to optimize real-time data fetching and enhance application performance.`,
+    companyUrl: "https://capabl.in", // Replace with actual URL
+    logo: "https://cdn.prod.website-files.com/66af61f906e2326d3e3183a1/67c9910c4b0d2fa80c43bdf4_Capabl%20TM%20logo-p-500.png", // Replace with actual logo URL
+    description: [`Built full-stack modules for a skill assessment platform`,` Designed responsive UIs with Tailwind CSS and implemented real-time updates using React state management.`],
     technologies: ["React.js", "Tailwind CSS", "Javascript"],
   },
 ];
@@ -275,6 +305,5 @@ export const CONTACT = {
 };
 
 export const Resume =
-  "https://s3.amazonaws.com/attachments.angel.co/12274936-c104b11d3bc62c28a0f91d3dcdfe34a9.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIATAVHNKYQ3M6NTPE3%2F20250509%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250509T062523Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEN7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCICozSYIFor2jiYm%2Bdc5rNKuPz7Z2ajD3xUvCNQ42Z9LfAiBwzB6gbvD%2BP6eqaeX4WXTCQcmz6UGNntuXLweMmntr1iqUBQiH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDIwNzU4MzI3MDQzMyIMXRUdEkMuOaElraJbKugET1PF%2B2huK6ocEiWNII5Xyu30FXb3qnKLuz0OmsHomQABvTo5zqoZeoazAvUJPiHP3nglTHALHcpT0t3%2BGGZYsdZn6NOG0S5QO3ExV1KWWoPP5yCO8rsg0NzDZiNtNZiV2%2Bv4x4qAKNfFOFCZLXVpFv9nQufjg8%2FjZGcvYQJJmagbmIxnrFGE4XYLGpBeD%2FT5btJD5G1837esHWsWWCYInV3OUGcx3ItMGZjZTsBzunqctHwjahHJ96m6URsBZT1xa%2FYeThQvZm4qwsQ2k%2FI1k%2BybajW5JOOR6yO3IepCOfwzRfKUjs%2Fl5JvMzUkrxx9NhqasxKsErW3IqIQU%2FP%2BOJ6dCf3jbgN5%2ByPwCCn6cZuw4A1VOMafjo6NVDM4fs3P%2BjfcJ74FUqY2jq3%2F9afQXa3unlDneIo6Y0gv6dIjySM2KE6OByaWP3jufkeaabyu94tL429auo%2Fb68eofYbiClFKl7cZ7gSg2VZkMcRzF81xyLHNRi0JwRo9HrvP%2B%2BzBbCFUe5aIu%2BJtzDS8SdIGRzoK0wnIeaj3Ow9cgpjZCFIcJa05oYQpRNo7hxVAiFqh5VhLZvuWk62Ffem6tZ6Lm4J4iN6XNf%2B8LO9LsTqDOm56i27siU0muQju8OIhNOli1mCqAVK1QCYW3uaQJ2N1Zq0OK8WlPMSbSMVvPkiljf7ze%2FiRdWjaxhZAC4b5QkhIXnHLo7OHAAnE49jvGXlWhOaPb6sTyhfae2Nfzn7v%2FEMxgRMdTP5lT1r2w9pWkgK0cvMGkk9ZC0HBxsRqq%2FIRfVOtjZlbNu4uDhbTifQ3f9xLrqKM2Q2RvXzC7t%2FbABjqbAWoUlOSgARrKtWHH1iYioV7v%2BOohYfZCZdDt%2Bt3xtvRgmgp%2Fb2dbO8yMLMgR3UlCIKGj%2FKlBw6pPEXorFNYQBbrplRi8EviNuZ%2BP%2FVcW6zBKAwtqK3paKtxZzFqJsSR4Pz7ncJWnbQOKUsNT%2BUpoAg7RmJC6guBDqPnikhdn4TkBgMhV%2F4GGuiUHwQjgS9T7KxYwIToiX7MW9vWU&X-Amz-SignedHeaders=host&X-Amz-Signature=d6ca0177d143eb034bac28aa442399e8e490302fbf0199a80b45b2700b78da56";
-
+  "https://drive.google.com/file/d/1ZYZT0iMR2rBFt_EKMlNi2S5UHEty7VfK/view";
 export const GitAPi = process.env.NEXT_PUBLIC_GIT_TOKEN;

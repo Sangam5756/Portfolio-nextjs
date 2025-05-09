@@ -19,7 +19,11 @@ const navItems = [
   { name: "About", icon: AiOutlineUser, refKey: "aboutRef" },
   { name: "Tech", icon: FaTools, refKey: "techRef" },
   { name: "Experience", icon: MdWorkOutline, refKey: "experienceRef" },
-  { name: "Projects", icon: AiOutlineFundProjectionScreen, refKey: "projectsRef" },
+  {
+    name: "Projects",
+    icon: AiOutlineFundProjectionScreen,
+    refKey: "projectsRef",
+  },
   { name: "Contact", icon: AiOutlineMail, refKey: "contactRef" },
 ];
 
@@ -43,19 +47,23 @@ const Header = ({ scrollToSection }) => {
 
   return (
     <header
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled ? "py-2" : "py-3"
-        }`}
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
+        scrolled ? "py-2" : "py-3"
+      }`}
     >
       <nav className="max-w-5xl mx-auto px-4  sm:px-6 lg:px-8">
         <div className="flex items-center  h-16  justify-between lg:justify-center  bg-opacity-80 backdrop-blur-md px-4  rounded-xl shadow-md">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <Image src="/smlogotran2.png"
+            <Image
+              src="/smlogotran2.png"
               width={40}
               height={40}
-              alt="logo" className="w-10 lg:w-16" />
+              onClick={() => scrollTo(scrollToSection["homeRef"])}
+              alt="logo"
+              className="w-10 lg:w-16"
+            />
           </div>
-
 
           {/* Desktop Nav */}
           <div className="hidden md:flex gap-4 text-white text-sm lg:pl-64">
@@ -74,12 +82,12 @@ const Header = ({ scrollToSection }) => {
             ))}
           </div>
 
-
           {/* Mobile Menu Button */}
           <div className="md:hidden flex gap-8">
-
-
-            <button onClick={() => scrollTo(scrollToSection["contactRef"])} className="bg-blue-600 px-2 py-1 text-white rounded-md hover:bg-blue-700">
+            <button
+              onClick={() => scrollTo(scrollToSection["contactRef"])}
+              className="bg-blue-600 px-2 py-1 text-white rounded-md hover:bg-blue-700"
+            >
               Hire Me
             </button>
 
@@ -87,10 +95,13 @@ const Header = ({ scrollToSection }) => {
               onClick={() => setIsOpen(!isOpen)}
               className="text-white hover:text-purple-300"
             >
-              {isOpen ? <AiOutlineClose size={24} /> : <AiOutlineMenu size={24} />}
+              {isOpen ? (
+                <AiOutlineClose size={24} />
+              ) : (
+                <AiOutlineMenu size={24} />
+              )}
             </button>
           </div>
-
         </div>
 
         {/* Mobile Menu */}
