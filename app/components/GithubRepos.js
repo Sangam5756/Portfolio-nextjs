@@ -64,7 +64,7 @@ const GithubProjects = () => {
 
       try {
         const res = await fetch(
-          `https://api.github.com/users/${username}/repos?sort=updated&direction=desc&per_page=6`,
+          `https://api.github.com/users/${username}/repos?sort=updated&direction=desc&per_page=12`,
           {
             headers: {
               Authorization: `token ${token}`,
