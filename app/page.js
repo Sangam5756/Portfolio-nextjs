@@ -1,6 +1,7 @@
 "use client"; // Mark as Client Component
 
 import React, { useEffect, useRef, useState } from "react";
+import Script from "next/script";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import About from "./components/About";
@@ -77,6 +78,11 @@ const Home = () => {
           </div>
         </div>
       </div>
+<Script
+  defer
+  data-domain="sangammundhe.site"
+  src="https://analytics-code.vercel.app/tracking-script.js"
+/>
     </div>
   );
 };
