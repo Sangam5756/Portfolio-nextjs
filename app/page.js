@@ -57,9 +57,9 @@ const Home = () => {
           <div ref={recentActivityRef}>
             <GithubProjects />
           </div>
-          <div ref={aboutRef}>
-            <About />
-          </div>
+          // <div ref={aboutRef}>
+          //   <About />
+          // </div>
           <div ref={techRef}>
             <Technologies />
           </div>
