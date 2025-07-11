@@ -305,5 +305,5 @@ export const CONTACT = {
 };
 
 export const Resume =
-  "https://drive.google.com/file/d/1ZYZT0iMR2rBFt_EKMlNi2S5UHEty7VfK/view";
+  "https://drive.google.com/file/d/1m1nCLJQ5BVW6uq9xLypHHsr3Ta4KxboF";
 export const GitAPi = process.env.NEXT_PUBLIC_GIT_TOKEN;
