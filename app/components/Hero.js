@@ -4,7 +4,7 @@ import React from "react";
 import ProfilePic from "./hero/ProfilePic";
 import GithubContributions from "./GithubContributions";
 import { SiGoogledocs, SiLeetcode, SiWakatime } from "react-icons/si";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaLinkedin,FaTwitter } from "react-icons/fa";
 import { hero_Text, Resume } from "../utils/constant";
 
 const Hero = () => {
@@ -37,6 +37,14 @@ const Hero = () => {
               className="hover:text-purple-300"
             >
               <FaLinkedin />
+            </a>
+                 <a
+              title="Twitter"
+              href="https://www.x.com/sangammundhe"
+              target="_blank"
+              className="hover:text-purple-300"
+            >
+              <FaTwitter />
             </a>
             <a
               title="GitHub"
