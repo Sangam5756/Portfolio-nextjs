@@ -27,7 +27,7 @@
 
 import { Resume } from "@/app/utils/constant";
 import Image from "next/image";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaLinkedin,FaTwitter } from "react-icons/fa";
 import { SiGoogledocs, SiLeetcode, SiWakatime } from "react-icons/si";
 
 const ProfilePic = () => {
@@ -54,6 +54,9 @@ const ProfilePic = () => {
                 <a href="https://www.linkedin.com/in/sangammundhe" target="_blank" title="LinkedIn" className="hover:text-purple-300">
                     <FaLinkedin />
                 </a>
+                <a href="https://www.x.com/sangammundhe" target="_blank" title="LinkedIn" className="hover:text-purple-300">
+                    <FaTwitter />
+                </a>
                 <a href="https://github.com/sangam5756" target="_blank" title="GitHub" className="hover:text-purple-300">
                     <FaGithub />
                 </a>
@@ -63,6 +66,7 @@ const ProfilePic = () => {
                 <a href="https://wakatime.com/@sangammundhe" target="_blank" title="Wakatime" className="hover:text-purple-300">
                     <SiWakatime />
                 </a>
+                        
             </div>
         </div>
     );
