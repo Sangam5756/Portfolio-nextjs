@@ -72,7 +72,6 @@ const GithubProjects = () => {
           }
         );
         const data = await res.json();
-        console.log(data);
         const reposWithCommits = await Promise.all(
           data.map(async (repo) => {
             const lastCommitDate = await fetchLatestCommit(repo.name);
@@ -84,9 +83,8 @@ const GithubProjects = () => {
           .sort(
             (a, b) => new Date(b.lastCommitDate) - new Date(a.lastCommitDate)
           )
-          .slice(0, 6); // only latest 12
+          .slice(0, 9); // only latest 12
 
-        // 💾 Save to localStorage
         localStorage.setItem("github_repos", JSON.stringify(sortedRepos));
         localStorage.setItem("github_repos_time", Date.now().toString());
 

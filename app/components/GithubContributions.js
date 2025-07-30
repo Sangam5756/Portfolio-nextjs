@@ -2,7 +2,7 @@ import GitHubCalendar from "react-github-calendar";
 import { useState } from "react";
 
 const GithubContributions = () => {
-    const [year, setYear] = useState(2024);
+    const [year, setYear] = useState(2025);
 
 
 

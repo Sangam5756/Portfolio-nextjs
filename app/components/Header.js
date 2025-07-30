@@ -11,12 +11,13 @@ import {
 } from "react-icons/ai";
 import { MdWorkOutline } from "react-icons/md";
 import { FaTools } from "react-icons/fa";
+import { BiBookOpen } from "react-icons/bi";
 import Image from "next/image";
-
+import Link from "next/link";
+// Nav items: route-based items have `route`, scroll-based items have `refKey`
 const navItems = [
   { name: "Home", icon: AiOutlineHome, refKey: "homeRef" },
   { name: "Building", icon: AiOutlineMail, refKey: "recentActivityRef" },
-  { name: "About", icon: AiOutlineUser, refKey: "aboutRef" },
   { name: "Tech", icon: FaTools, refKey: "techRef" },
   { name: "Experience", icon: MdWorkOutline, refKey: "experienceRef" },
   {
@@ -25,6 +26,7 @@ const navItems = [
     refKey: "projectsRef",
   },
   { name: "Contact", icon: AiOutlineMail, refKey: "contactRef" },
+  { name: "Journey", icon: BiBookOpen, route: "/learning-journey" }, // NEW
 ];
 
 const Header = ({ scrollToSection }) => {
@@ -33,14 +35,11 @@ const Header = ({ scrollToSection }) => {
 
   const scrollTo = (ref) => {
     ref?.current?.scrollIntoView({ behavior: "smooth" });
-    setIsOpen(false); // close on mobile
+    setIsOpen(false); // close mobile menu
   };
 
   useEffect(() => {
-    const handleScroll = () => {
-      setScrolled(window.scrollY > 20);
-    };
-
+    const handleScroll = () => setScrolled(window.scrollY > 20);
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
@@ -51,8 +50,8 @@ const Header = ({ scrollToSection }) => {
         scrolled ? "py-2" : "py-3"
       }`}
     >
-      <nav className="max-w-5xl mx-auto px-4  sm:px-6 lg:px-8">
-        <div className="flex items-center  h-16  justify-between lg:justify-center  bg-opacity-80 backdrop-blur-md px-4  rounded-xl shadow-md">
+      <nav className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="flex items-center h-16 justify-between lg:justify-center bg-opacity-80 backdrop-blur-md px-4 rounded-xl shadow-md">
           {/* Logo */}
           <div className="flex-shrink-0">
             <Image
@@ -61,36 +60,49 @@ const Header = ({ scrollToSection }) => {
               height={40}
               onClick={() => scrollTo(scrollToSection["homeRef"])}
               alt="logo"
-              className="w-10 lg:w-16"
+              className="w-10 lg:w-16 cursor-pointer"
             />
           </div>
 
           {/* Desktop Nav */}
           <div className="hidden md:flex gap-4 text-white text-sm lg:pl-64">
-            {navItems.map(({ name, icon: Icon, refKey }) => (
-              <button
-                key={name}
-                onClick={() => scrollTo(scrollToSection[refKey])}
-                className="group flex items-center gap-1 hover:text-purple-300 transition"
-              >
-                <Icon className="text-base" />
-                <span className="relative">
-                  {name}
-                  <span className="absolute bottom-0 left-0 h-0.5 w-0 bg-purple-300 transition-all group-hover:w-full" />
-                </span>
-              </button>
-            ))}
+            {navItems.map(({ name, icon: Icon, refKey, route }) =>
+              route ? (
+                <Link
+                  key={name}
+                  href={route}
+                  className="group flex items-center gap-1 hover:text-purple-300 transition"
+                >
+                  <Icon className="text-base" />
+                  <span className="relative">
+                    {name}
+                    <span className="absolute bottom-0 left-0 h-0.5 w-0 bg-purple-300 transition-all group-hover:w-full" />
+                  </span>
+                </Link>
+              ) : (
+                <button
+                  key={name}
+                  onClick={() => scrollTo(scrollToSection[refKey])}
+                  className="group flex items-center gap-1 hover:text-purple-300 transition"
+                >
+                  <Icon className="text-base" />
+                  <span className="relative">
+                    {name}
+                    <span className="absolute bottom-0 left-0 h-0.5 w-0 bg-purple-300 transition-all group-hover:w-full" />
+                  </span>
+                </button>
+              )
+            )}
           </div>
 
-          {/* Mobile Menu Button */}
-          <div className="md:hidden flex gap-8">
+          {/* Mobile Menu Toggle + Hire Me Button */}
+          <div className="md:hidden flex gap-4 items-center">
             <button
               onClick={() => scrollTo(scrollToSection["contactRef"])}
               className="bg-blue-600 px-2 py-1 text-white rounded-md hover:bg-blue-700"
             >
               Hire Me
             </button>
-
             <button
               onClick={() => setIsOpen(!isOpen)}
               className="text-white hover:text-purple-300"
@@ -104,19 +116,30 @@ const Header = ({ scrollToSection }) => {
           </div>
         </div>
 
-        {/* Mobile Menu */}
+        {/* Mobile Menu Dropdown */}
         {isOpen && (
           <div className="md:hidden mt-2 bg-neutral-900 rounded-lg shadow-lg px-4 py-3 space-y-2">
-            {navItems.map(({ name, icon: Icon, refKey }) => (
-              <button
-                key={name}
-                onClick={() => scrollTo(scrollToSection[refKey])}
-                className="flex items-center w-full gap-3 text-left text-white hover:text-purple-300 transition"
-              >
-                <Icon className="text-lg" />
-                {name}
-              </button>
-            ))}
+            {navItems.map(({ name, icon: Icon, refKey, route }) =>
+              route ? (
+                <Link
+                  key={name}
+                  href={route}
+                  className="flex items-center gap-3 text-white hover:text-purple-300 transition"
+                >
+                  <Icon className="text-lg" />
+                  {name}
+                </Link>
+              ) : (
+                <button
+                  key={name}
+                  onClick={() => scrollTo(scrollToSection[refKey])}
+                  className="flex items-center w-full gap-3 text-left text-white hover:text-purple-300 transition"
+                >
+                  <Icon className="text-lg" />
+                  {name}
+                </button>
+              )
+            )}
           </div>
         )}
       </nav>

@@ -7,9 +7,10 @@ export const ABOUT_TEXT = `I’m a motivated Software Developer with a strong fo
 
 I enjoy writing maintainable code, collaborating with teams, and continuously improving both the product and myself. While I’ve worked with modern tools like React, Node.js, and AWS, I believe my ability to learn quickly, solve problems, and stay curious is what adds the most value.`;
 
-export const hero_Text = `I’m a Software Developer with a solid foundation in full-stack development and a focus on building scalable, user-centered solutions.
-I’ve contributed to real-world projects from UI design to API integration and cloud deployment.
-I value clean code, collaboration, and continuous learning more than any single tool or technology.`;
+// export const hero_Text = `I’m a Software Developer with a solid foundation in full-stack development and a focus on building scalable, user-centered solutions.
+// I’ve contributed to real-world projects from UI design to API integration and cloud deployment.
+// I value clean code, collaboration, and continuous learning more than any single tool or technology.`;
+export const hero_Text = `I’m a Software Developer with a strong foundation in full-stack development and a focus on building scalable, real-world solutions. I work across the stack — from building responsive frontend interfaces to designing backend logic and deploying to the cloud. I prioritize clean code, collaboration, and continuous learning over any single framework or tool.`;
 
 export const EXPERIENCES = [
   {
@@ -27,7 +28,8 @@ export const EXPERIENCES = [
       "Integrated RESTful APIs for live market data, improving response time by 40%.",
       "Collaborated on scalable Node.js services and deployed infrastructure on AWS with monitoring and security.",
     ],
-    appLink: "https://play.google.com/store/apps/details?id=com.gsmtradinginstitute.twa",
+    appLink:
+      "https://play.google.com/store/apps/details?id=com.gsmtradinginstitute.twa",
     technologies: [
       "React.js",
       "Node.js",
@@ -46,10 +48,15 @@ export const EXPERIENCES = [
     company: "Capabl India",
     companyUrl: "https://capabl.in", // Replace with actual URL
     logo: "https://cdn.prod.website-files.com/66af61f906e2326d3e3183a1/67c9910c4b0d2fa80c43bdf4_Capabl%20TM%20logo-p-500.png", // Replace with actual logo URL
-    description: [`Built full-stack modules for a skill assessment platform`,` Designed responsive UIs with Tailwind CSS and implemented real-time updates using React state management.`],
+    description: [
+      `Built full-stack modules for a skill assessment platform`,
+      ` Designed responsive UIs with Tailwind CSS and implemented real-time updates using React state management.`,
+    ],
     technologies: ["React.js", "Tailwind CSS", "Javascript"],
   },
 ];
+
+export const token = process.env.NEXT_PUBLIC_GITHUB_TOKEN;
 
 export const githubUserName = "Sangam5756";
 
