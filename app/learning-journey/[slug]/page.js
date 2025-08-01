@@ -30,7 +30,6 @@ export default async function LogPage({ params }) {
   return (
    <div className="bg-[#0b0a12] min-h-screen">
   <div className="max-w-4xl mx-auto px-4 py-6">
-    {/* 🔙 Back Button */}
     <div className="mb-6">
       <Link
         href="/learning-journey"
@@ -40,13 +39,11 @@ export default async function LogPage({ params }) {
       </Link>
     </div>
 
-    {/* 📝 Header */}
     <header className="mb-8">
       <h1 className="text-3xl font-bold text-white capitalize">{title}</h1>
       <p className="text-sm text-white mt-1">📅 {formattedDate}</p>
     </header>
 
-    {/* 📘 Blog Content */}
     <section className="markdown-body bg-white dark:bg-zinc-900 p-6 rounded-md shadow-md overflow-x-auto">
       <ReadmeViewer content={raw} />
     </section>

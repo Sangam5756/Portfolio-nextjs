@@ -5,15 +5,11 @@
 // import { MdEmail } from "react-icons/md";
 // import { FiPhoneCall } from "react-icons/fi";
 
-
 // const Contact = () => {
 //   const form = useRef();
 
-
-
 //   // const sendEmail = (e) => {
 //   //   e.preventDefault();
-
 
 //   //   emailjs
 //   //     .sendForm("service_7ssdikq", "template_wjfexqr", form.current, {
