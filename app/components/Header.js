@@ -103,6 +103,12 @@ const Header = ({ scrollToSection }) => {
             >
               Hire Me
             </button>
+             <Link
+    href="/learning-journey"
+    className="bg-purple-600 px-2 py-1 text-white rounded-md hover:bg-purple-700 text-sm"
+  >
+    Journey
+  </Link>
             <button
               onClick={() => setIsOpen(!isOpen)}
               className="text-white hover:text-purple-300"
