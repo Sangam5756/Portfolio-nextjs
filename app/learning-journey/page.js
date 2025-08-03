@@ -8,7 +8,10 @@ async function fetchLogs() {
     { cache: "no-store" }
   );
   const files = await res.json();
-
+ if (!Array.isArray(files)) {
+    console.error("GitHub API returned unexpected data:", files);
+    return [];
+  }
   const mdFiles = files?.filter((file) => file.name.endsWith(".md"));
 
   // Fetch latest commit for each file

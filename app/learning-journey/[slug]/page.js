@@ -6,6 +6,10 @@ export async function generateStaticParams() {
     "https://api.github.com/repos/Sangam5756/learning-journey/contents/blogs"
   );
   const data = await res.json();
+    if (!Array.isArray(data)) {
+    console.error("Unexpected response from GitHub API:", data);
+    return [];
+  }
   return data
     .filter((file) => file.name.endsWith(".md"))
     .map((file) => ({ slug: file.name.replace(".md", "") }));
