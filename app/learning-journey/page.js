@@ -10,8 +10,8 @@ async function fetchLogs() {
       headers: {
         Authorization: `token ${token}`,
       },
-    },
-    { cache: "no-store" }
+      cache: "no-store",
+    }
   );
   const files = await res.json();
   if (!Array.isArray(files)) {
@@ -29,6 +29,7 @@ async function fetchLogs() {
           headers: {
             Authorization: `token ${token}`,
           },
+             cache: "no-store"
         }
       );
       const commitData = await commitRes.json();
@@ -89,7 +90,7 @@ export default async function LearningJourneyPage() {
                   key={log.name}
                   className="p-4 border border-zinc-800 rounded-md bg-neutral-900 hover:shadow-md transition"
                 >
-                  <h2 className="lg:text-lg text-xs font-semibold text-white mb-1">
+                  <h2 className="lg:text-lg text-sm font-semibold text-white mb-1">
                     {formattedTitle}
                   </h2>
                   <p className="text-xs text-zinc-400 mb-2">🕒 {timeAgo}</p>
