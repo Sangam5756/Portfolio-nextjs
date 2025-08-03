@@ -1,9 +1,15 @@
 import ReadmeViewer from "@/app/components/ReadmeViewer";
+import { token } from "@/app/utils/constant";
 import Link from "next/link";
 
 export async function generateStaticParams() {
   const res = await fetch(
-    "https://api.github.com/repos/Sangam5756/learning-journey/contents/blogs"
+    "https://api.github.com/repos/Sangam5756/learning-journey/contents/blogs",
+     {
+            headers: {
+              Authorization: `token ${token}`,
+            },
+          }
   );
   const data = await res.json();
     if (!Array.isArray(data)) {
@@ -18,7 +24,12 @@ export async function generateStaticParams() {
 export default async function LogPage({ params }) {
   const { slug } = params;
   const res = await fetch(
-    `https://raw.githubusercontent.com/Sangam5756/learning-journey/main/blogs/${slug}.md`
+    `https://raw.githubusercontent.com/Sangam5756/learning-journey/main/blogs/${slug}.md`,
+     {
+            headers: {
+              Authorization: `token ${token}`,
+            },
+          }
   );
   const raw = await res.text();
 
