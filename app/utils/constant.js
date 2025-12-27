@@ -14,11 +14,11 @@ export const hero_Text = `I’m a Software Developer with a strong foundation in
 
 export const EXPERIENCES = [
   {
-    year: "Dec 2024 - Present",
+    year: "Dec 2024 - May 2025",
     role: "Software Engineer Intern",
-    company: "GSM Trading Institute",
-    companyUrl: "https://gsmtradinginstitute.com",
-    logo: "https://gsmtradinginstitute.com/static/media/logo192.698cf8de825a457e5018.png",
+    company: "Smisha Share Market",
+    companyUrl: "https://smishasharemarket.com/",
+    logo: "https://smishasharemarket.com/wp-content/uploads/2025/04/SMISHA-1-1536x315.png",
     description: [
       "Built and scaled a full Course Management System (CMS) used by 500+ users.",
       "Developed secure video streaming with Cloudflare, reducing buffering by 40%.",
@@ -61,6 +61,7 @@ export const token = process.env.NEXT_PUBLIC_GITHUB_TOKEN;
 export const githubUserName = "Sangam5756";
 
 export const PROJECTS = [
+
   {
     title: "ImageCompress",
     description:
@@ -71,17 +72,42 @@ export const PROJECTS = [
     technologies: ["NextJs", "Javascript", "Tailwind CSS"],
     githubrepo: "https://github.com/Sangam5756/imagecompressor",
   },
-  {
-    title: "AI-GPT",
-    description:
-      "AI-Code is a platform that leverages  AI to generate code based on natural language input. The system allows users to input programming requirements, and the AI generates the corresponding code in various programming languages. It simplifies coding tasks and helps developers by providing code suggestions, automating repetitive tasks, and enhancing productivity.",
+
+    {
+    title: "ShopVerse",
     image:
-      "https://static.vecteezy.com/system/resources/previews/004/885/882/non_2x/ai-artificial-intelligence-logo-in-hands-artificial-intelligence-and-machine-learning-concept-sphere-grid-wave-with-binary-code-big-data-innovation-technology-neural-networks-illustration-vector.jpg",
-    link: "https://aicode.sangammundhe.site",
-    technologies: ["python", "Flask", "OPEN AI", "React.js"],
-    githubrepo: "https://github.com/Sangam5756/AI-CODER",
+      "https://img.atom.com/story_images/visual_images/1658305987-shopverse.png",
+    description:
+      "Developed a full-stack eCommerce application using the MERN stack. Integrated features like product browsing, shopping cart, and secure payment processing.",
+    technologies: [
+      "MongoDB",
+      "Node.js",
+      "React.Js",
+      "TailwindCss",
+      "React-Redux",
+    ],
+    link: "https://shopverse.sangammundhe.site",
+    githubrepo: "https://github.com/Sangam5756/fullstack-eccomerce",
   },
-  {
+
+    {
+    title: "MovieMind",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnet9BQkqlD0lq-VAZ0yPUmp16Ze5yCUySqQ&s", // Replace with actual image
+    description:
+      "Created a responsive web app for AI-powered movie recommendations using React and Cohere GPT API. Integrated TMDB API for fetching detailed movie information and deployed the app on Firebase for scalable access.",
+    technologies: [
+      "React.js",
+      "React-Redux",
+      "TailwindCSS",
+      "Cohere-GPT",
+      "Firebase",
+    ],
+    link: "https://netflixgpt-174a5.web.app",
+    githubrepo: "https://github.com/Sangam5756/NamasteReactJs",
+  },
+
+   {
     title: "Chatify",
     description:
       "Chatify is a real-time messaging platform where users can join custom chat rooms and exchange messages instantly. Built with WebSocket technology, it allows seamless communication and supports multiple rooms. Users can send messages, receive real-time updates, and enjoy an intuitive chat interface.",
@@ -98,6 +124,8 @@ export const PROJECTS = [
     ],
     githubrepo: "https://github.com/Sangam5756/chatify",
   },
+
+  
   {
     title: "DevMeet",
     description:
@@ -119,23 +147,20 @@ export const PROJECTS = [
     ],
     githubrepo: "https://github.com/Sangam5756/dev-meet",
   },
+
   {
-    title: "Online Bookstore and Course Platform",
+    title: "AI-GPT",
     description:
-      "An interactive web application offering users a platform to browse and purchase books and courses. Built with React.js and MERN stack.",
+      "AI-Code is a platform that leverages  AI to generate code based on natural language input. The system allows users to input programming requirements, and the AI generates the corresponding code in various programming languages. It simplifies coding tasks and helps developers by providing code suggestions, automating repetitive tasks, and enhancing productivity.",
     image:
-      "https://github.com/Sangam5756/BookStore/blob/master/frontend/public/banner.png?raw=true",
-    link: "https://bookstore.sangammundhe.site",
-    technologies: [
-      "React.js",
-      "MongoDB",
-      "Express-js",
-      "Node.js",
-      "TailwindCSS",
-    ],
-    githubrepo: "https://github.com/Sangam5756/PROJECTS.git",
+      "https://static.vecteezy.com/system/resources/previews/004/885/882/non_2x/ai-artificial-intelligence-logo-in-hands-artificial-intelligence-and-machine-learning-concept-sphere-grid-wave-with-binary-code-big-data-innovation-technology-neural-networks-illustration-vector.jpg",
+    link: "https://aicode.sangammundhe.site",
+    technologies: ["python", "Flask", "OPEN AI", "React.js"],
+    githubrepo: "https://github.com/Sangam5756/AI-CODER",
   },
-  {
+
+
+    {
     title: "GitCode",
     description:
       "Build and deploy a Github-like app using React, MongoDB, Express.js, Passport.js.",
@@ -152,6 +177,25 @@ export const PROJECTS = [
     ],
     githubrepo: "https://github.com/Sangam5756/Github.git",
   },
+ 
+
+  {
+    title: "Online Bookstore and Course Platform",
+    description:
+      "An interactive web application offering users a platform to browse and purchase books and courses. Built with React.js and MERN stack.",
+    image:
+      "https://github.com/Sangam5756/BookStore/blob/master/frontend/public/banner.png?raw=true",
+    link: "https://bookstore.sangammundhe.site",
+    technologies: [
+      "React.js",
+      "MongoDB",
+      "Express-js",
+      "Node.js",
+      "TailwindCSS",
+    ],
+    githubrepo: "https://github.com/Sangam5756/PROJECTS.git",
+  },
+
   {
     title: "Dev-Blog",
     image:
@@ -169,38 +213,8 @@ export const PROJECTS = [
     link: "https://devblog.sangammundhe.site",
     githubrepo: "https://github.com/Sangam5756/Medium-Blog",
   },
-  {
-    title: "ShopVerse",
-    image:
-      "https://img.atom.com/story_images/visual_images/1658305987-shopverse.png",
-    description:
-      "Developed a full-stack eCommerce application using the MERN stack. Integrated features like product browsing, shopping cart, and secure payment processing.",
-    technologies: [
-      "MongoDB",
-      "Node.js",
-      "React.Js",
-      "TailwindCss",
-      "React-Redux",
-    ],
-    link: "https://shopverse.sangammundhe.site",
-    githubrepo: "https://github.com/Sangam5756/fullstack-eccomerce",
-  },
-  {
-    title: "MovieMind",
-    image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnet9BQkqlD0lq-VAZ0yPUmp16Ze5yCUySqQ&s", // Replace with actual image
-    description:
-      "Created a responsive web app for AI-powered movie recommendations using React and Cohere GPT API. Integrated TMDB API for fetching detailed movie information and deployed the app on Firebase for scalable access.",
-    technologies: [
-      "React.js",
-      "React-Redux",
-      "TailwindCSS",
-      "Cohere-GPT",
-      "Firebase",
-    ],
-    link: "https://netflixgpt-174a5.web.app",
-    githubrepo: "https://github.com/Sangam5756/NamasteReactJs",
-  },
+
+
 
   {
     title: "Pawdoption",
@@ -294,20 +308,19 @@ export const PROJECTS = [
   //   technologies: ["React.js", "LocalStorage", "TailwindCss"],
   //   githubrepo: "https://github.com/Sangam5756/PROJECTS.git",
   // },
-  {
-    title: "Bidding Platform",
-    description:
-      "A real-time bidding platform with comprehensive RESTful API support, including user authentication and role-based access control.",
-    image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZSREn075BYjyiDlcbdy7HTKl83FbXQgA-6kC_4hvq3RuKHIYQNNtvVQ4k2uD_uZdhEY8&usqp=CAU",
-    technologies: ["MongoDB", "Node-js", "Express.js", "Rest-Api"],
-    githubrepo: "https://github.com/Sangam5756/PROJECTS.git",
-  },
+  // {
+  //   title: "Bidding Platform",
+  //   description:
+  //     "A real-time bidding platform with comprehensive RESTful API support, including user authentication and role-based access control.",
+  //   image:
+  //     "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZSREn075BYjyiDlcbdy7HTKl83FbXQgA-6kC_4hvq3RuKHIYQNNtvVQ4k2uD_uZdhEY8&usqp=CAU",
+  //   technologies: ["MongoDB", "Node-js", "Express.js", "Rest-Api"],
+  //   githubrepo: "https://github.com/Sangam5756/PROJECTS.git",
+  // },
 ];
 
 export const CONTACT = {
-  address: "Kharadi, Pune-411014, Maharastra , India",
-  phoneNo: "+91 9370645756",
+  address: "Pune, Maharastra , India",
   email: "sangammunde3@gmail.com",
 };
 

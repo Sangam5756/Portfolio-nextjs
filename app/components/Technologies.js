@@ -1,7 +1,7 @@
 import React from "react";
 import { RiReactjsLine } from "react-icons/ri";
 import { TbBrandNextjs, TbBrandRedux,TbBrandPrisma, TbSql } from "react-icons/tb";
-import { SiMongodb, SiExpress,SiRecoil } from "react-icons/si";
+import { SiMongodb,SiSpringboot, SiExpress,SiRecoil } from "react-icons/si";
 import { FaNodeJs, FaJava } from "react-icons/fa";
 
 const technologies = [
