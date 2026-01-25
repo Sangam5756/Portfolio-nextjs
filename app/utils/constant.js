@@ -68,7 +68,7 @@ export const PROJECTS = [
       "A simple web tool to compress and resize images. Upload, adjust, and download optimized images in seconds. Control compression percentage for better results. Reduces file size with no quality compromise. Fast, lightweight, and easy to use.",
     image:
       "https://raw.githubusercontent.com/Sangam5756/imageCompressor/main/preview.png",
-    link: "https://compressit.sangammundhe.site",
+    link: "https://compressit.sangammundhe.tech",
     technologies: ["NextJs", "Javascript", "Tailwind CSS"],
     githubrepo: "https://github.com/Sangam5756/imagecompressor",
   },
@@ -86,7 +86,7 @@ export const PROJECTS = [
       "TailwindCss",
       "React-Redux",
     ],
-    link: "https://shopverse.sangammundhe.site",
+    link: "https://shopverse.sangammundhe.tech",
     githubrepo: "https://github.com/Sangam5756/fullstack-eccomerce",
   },
 
@@ -113,7 +113,7 @@ export const PROJECTS = [
       "Chatify is a real-time messaging platform where users can join custom chat rooms and exchange messages instantly. Built with WebSocket technology, it allows seamless communication and supports multiple rooms. Users can send messages, receive real-time updates, and enjoy an intuitive chat interface.",
     image:
       "https://play-lh.googleusercontent.com/8xSX7C0edYgitTGwdbqgoB9jt5lp4nO7VY_jkE3jWUCypcugn5aRHSn9Y8-qQA53GSo",
-    link: "https://chatify.sangammundhe.site",
+    link: "https://chatify.sangammundhe.tech",
     technologies: [
       "Node.js",
       "Express.js",
@@ -133,7 +133,7 @@ export const PROJECTS = [
 
     image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8y5Q-o9m3sbt0tjPhMr6cxjKsecMaBBR4LA&s",
-    link: "https://devmeet.sangammundhe.site",
+    link: "https://devmeet.sangammundhe.tech",
     technologies: [
       "MongoDB",
       "Express-js",
@@ -154,7 +154,7 @@ export const PROJECTS = [
       "AI-Code is a platform that leverages  AI to generate code based on natural language input. The system allows users to input programming requirements, and the AI generates the corresponding code in various programming languages. It simplifies coding tasks and helps developers by providing code suggestions, automating repetitive tasks, and enhancing productivity.",
     image:
       "https://static.vecteezy.com/system/resources/previews/004/885/882/non_2x/ai-artificial-intelligence-logo-in-hands-artificial-intelligence-and-machine-learning-concept-sphere-grid-wave-with-binary-code-big-data-innovation-technology-neural-networks-illustration-vector.jpg",
-    link: "https://aicode.sangammundhe.site",
+    link: "https://aicode.sangammundhe.tech",
     technologies: ["python", "Flask", "OPEN AI", "React.js"],
     githubrepo: "https://github.com/Sangam5756/AI-CODER",
   },
@@ -166,7 +166,7 @@ export const PROJECTS = [
       "Build and deploy a Github-like app using React, MongoDB, Express.js, Passport.js.",
     image:
       "https://i.pinimg.com/736x/b5/1b/78/b51b78ecc9e5711274931774e433b5e6.jpg",
-    link: "https://gitcode.sangammundhe.site",
+    link: "https://gitcode.sangammundhe.tech",
     technologies: [
       "React",
       "MongoDB",
@@ -185,7 +185,7 @@ export const PROJECTS = [
       "An interactive web application offering users a platform to browse and purchase books and courses. Built with React.js and MERN stack.",
     image:
       "https://github.com/Sangam5756/BookStore/blob/master/frontend/public/banner.png?raw=true",
-    link: "https://bookstore.sangammundhe.site",
+    link: "https://bookstore.sangammundhe.tech",
     technologies: [
       "React.js",
       "MongoDB",
@@ -210,7 +210,7 @@ export const PROJECTS = [
       "TailwindCss",
       "PostgreSql",
     ],
-    link: "https://devblog.sangammundhe.site",
+    link: "https://devblog.sangammundhe.tech",
     githubrepo: "https://github.com/Sangam5756/Medium-Blog",
   },
 
