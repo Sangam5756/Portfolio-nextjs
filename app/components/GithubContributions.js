@@ -15,6 +15,7 @@ const GithubContributions = () => {
                     onChange={(e) => setYear(Number(e.target.value))}
                     className="bg-gray-800 text-sm rounded border border-gray-700 px-3 py-1 text-white"
                 >
+                    <option value={2026}>2026</option>
                     <option value={2025}>2025</option>
                     <option value={2024}>2024</option>
                 </select>
